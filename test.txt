@@ -1,0 +1,46 @@
+PHPUnit 12.5.38 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.13
+Configuration:phpunit.xml
+
+..........................                                        26 / 26 (100%)
+
+Time: 00:00.030, Memory: 16.00 MB
+
+Matrizes Conta
+ ✔ Soma subtracao basicas
+ ✔ Produto 2x2
+ ✔ Escalar e transposta
+ ✔ Identidade neutra e zerada neutra
+ ✔ Determinantes 1x1 2x2 3x3
+ ✔ Inversa confere na multiplicacao
+ ✔ Tamanhos diferentes nao somam
+ ✔ Produto incompativel falha
+ ✔ Singular nao tem inversa
+ ✔ Negativos e decimais
+
+Pagina Algebra
+ ✔ Navegacao configuracao e seguranca
+ ✔ Operacao unaria nao exige matriz direita
+ ✔ Soma tres por tres
+ ✔ Escalar e transposta
+ ✔ Geradores nao exigem valores
+ ✔ Singular e valores invalidos preservados
+ ✔ Classifica os tres tipos de sistema
+ ✔ Sistema tres por tres
+
+Sistemas Tipo
+ ✔ Spd tem uma solucao
+ ✔ Spd 3x3 classico
+ ✔ Si nao tem solucao
+ ✔ Spi tem infinitas
+ ✔ Troca de linha quando pivo e zero
+ ✔ Rotulos usam siglas do professor
+ ✔ Matriz torta e rejeitada
+ ✔ Letra no lugar de numero e rejeitada
+
+OK (26 tests, 110 assertions)
+
+Código de saída: 0
+Commit testado: 54da36b8ac79ce3ad3d95666901f60b0a005ffd5
+Comando: tools/php84-13/php.exe vendor/phpunit/phpunit/phpunit --configuration phpunit.xml --colors=never --testdox
