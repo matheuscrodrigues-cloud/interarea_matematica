@@ -1,0 +1,58 @@
+/* Bootstrap cuida dos controles e espaçamentos; aqui ficam os detalhes de álgebra. */
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeae2;
+}
+
+.folha {
+    width: 1000px;
+}
+
+nav a {
+    color: #795b10;
+    text-decoration: none;
+}
+
+nav a[aria-current] {
+    font-weight: bold;
+}
+
+.configuracao .campo,
+.operandos>* {
+    flex: 1;
+}
+
+.matriz {
+    margin: 16px 0;
+    padding: 12px;
+    border-left: 2px solid #38413b;
+    border-right: 2px solid #38413b;
+}
+
+.linha-matriz input {
+    text-align: center;
+}
+
+.numero-campo,
+.termo {
+    min-width: 0;
+}
+
+.resposta-matriz {
+    display: inline-block;
+    min-width: 180px;
+}
+
+.resposta-matriz span {
+    flex: 1;
+    text-align: center;
+}
+
+.escalar,
+.equacao>.numero-campo {
+    max-width: 160px;
+}
+
+.valor-resposta {
+    font-size: 28px;
+}
